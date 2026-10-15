@@ -17,12 +17,13 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
 <header class="site-header">
   <nav class="nav wrap" aria-label="Main">
     <a class="nav__logo" href="index.html"><img src="assets/logo-horizontal.png" alt="Codegineers — Techno-Education Services" width="230" height="53"></a>
@@ -34,23 +35,24 @@
       <li><a href="curriculum.html">Curriculum</a></li>
       <li><a href="shop.html">Shop</a></li>
       <li><a href="reviews.html">Reviews</a></li>
-      <li><a class="nav__cta" href="contact.html">Contact</a></li>
+      <li><a class="nav__cta" href="contact.html">Contact Us <i class="fa-solid fa-arrow-right"></i></a></li>
     </ul>
   </nav>
 </header>
 
 <main class="soon">
-  <div class="dot-grid" aria-hidden="true"></div>
-  <div class="doodles" aria-hidden="true"><span class="doodle doodle--round doodle--spin" style="--c:var(--orange);top:12%;left:8%;--sz:56px;--t:7s;--d:-0s;--r:0deg"><i class="fa-solid fa-gear"></i></span><span class="doodle " style="--c:var(--purple);top:70%;left:6%;--sz:50px;--t:6s;--d:-2s;--r:-10deg"><i class="fa-solid fa-code"></i></span><span class="doodle doodle--round" style="--c:var(--yellow);top:8%;left:80%;--sz:42px;--t:5s;--d:-1s;--r:12deg"><i class="fa-solid fa-star"></i></span><span class="doodle " style="--c:var(--green);top:72%;left:88%;--sz:54px;--t:7s;--d:-3s;--r:8deg"><i class="fa-solid fa-robot"></i></span><span class="doodle doodle--round doodle--spin" style="--c:var(--pink);top:40%;left:92%;--sz:44px;--t:6s;--d:-2s;--r:0deg"><i class="fa-solid fa-atom"></i></span><span class="doodle doodle--round" style="--c:var(--sky);top:42%;left:3%;--sz:44px;--t:8s;--d:-1s;--r:-8deg"><i class="fa-solid fa-lightbulb"></i></span></div>
+  <span class="blob blob--a" aria-hidden="true"></span>
+  <span class="blob blob--b" aria-hidden="true"></span>
+  <span class="gear gear--a" aria-hidden="true"><i class="fa-solid fa-gear"></i></span>
+  <span class="gear gear--b gear--blue" aria-hidden="true"><i class="fa-solid fa-gear"></i></span>
   <div class="wrap">
-    <img class="soon__mark" src="assets/logo-mark.png" alt="" width="170" height="138">
-    <span class="soon__page">Activities</span>
-    <h1><span class="a">Coming</span> <span class="b">Soon</span></h1>
-    <div class="soon__progress" aria-hidden="true"><span></span></div>
+    <img class="soon__mark" src="assets/logo-mark.png" alt="" width="150" height="121">
+    <span class="kicker">Activities</span>
+    <h1><span class="b">COMING </span><span class="o">SOON</span></h1>
     <p>We're building this page. In the meantime, message us on WhatsApp and we'll answer your questions.</p>
     <div class="soon__actions">
-      <a class="btn btn--wa" href="https://wa.me/963940686588" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>Chat on WhatsApp</a>
-      <a class="btn btn--outline" href="index.html">Back to Home</a>
+      <a class="btn btn--orange" href="https://wa.me/963940686588" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>Chat on WhatsApp</a>
+      <a class="btn btn--line" href="index.html">Back to Home</a>
     </div>
   </div>
 </main>
@@ -59,11 +61,11 @@
   <div class="wrap">
     <div class="footer__grid">
       <div class="footer__brand">
-        <a class="logo-tile" href="index.html"><img src="assets/logo-horizontal.png" alt="Codegineers" width="190" height="44"></a>
-        <p>Technology education for young innovators: robotics, coding, artificial intelligence and engineering.</p>
+        <a href="index.html"><img src="assets/logo-full.png" alt="Codegineers — Techno-Education Services" width="170" height="144"></a>
+        <p>Technology education that inspires young minds to explore, create and innovate.</p>
       </div>
       <div>
-        <h4>Pages</h4>
+        <h4>Quick Links</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
@@ -75,10 +77,21 @@
         </ul>
       </div>
       <div>
-        <h4>Get in touch</h4>
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="services.html">Robotics &amp; Engineering</a></li>
+          <li><a href="services.html">Mental Math</a></li>
+          <li><a href="services.html">Coding &amp; Programming</a></li>
+          <li><a href="services.html">Artificial Intelligence</a></li>
+          <li><a href="services.html">STEM &amp; Innovation</a></li>
+          <li><a href="services.html">Electronics &amp; IoT</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
         <ul class="footer__contact">
-          <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/963940686588" target="_blank" rel="noopener">+963 940 686 588</a></li>
           <li><i class="fa-solid fa-location-dot"></i><span>Syria</span></li>
+          <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/963940686588" target="_blank" rel="noopener">+963 940 686 588</a></li>
         </ul>
       </div>
     </div>
@@ -89,6 +102,7 @@
   </div>
 </footer>
 
+<button class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
 <a class="wa-float" href="https://wa.me/963940686588" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 <script src="main.js"></script>
 </body>
